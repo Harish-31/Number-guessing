@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body style="text-align:end;">
+    <h1 style="color: rgb(255, 255, 255);margin-left: 4cm;">LET'S START THE GAME</h1>
+    <div id="startButton">
+      <button onclick="startGame()" style="color: rgb(255, 255, 255);margin-top: 0.3cm;height: 1cm;width: 3cm;border-radius: 10%;background: linear-gradient(to right, #c98f11, #c9c207);border-color: #000000;"><b>Start</b></button>
+    </div>
+    <div id="gameDiv" style="display: none;margin-top: -1%;">
+      <p style="color: aliceblue;margin-left: 4cm;">Guess a number between 1 and 100:</p>
+      <input type="text" id="guess" style="color: rgb(170, 5, 176);margin-left: 1px;" />
+      <button onclick="checkGuess()" style="height: 1cm;width: 3cm;border-radius: 10%;background: linear-gradient(to right, #c40970, #8403c0, #a51adc, #7f12c8);border-color: #da7b7b"><b>Guess<b></button>
+      <p id="message" style="color: aliceblue;margin-left: 1px;"></p>
+      <p id="lives" style="color: aliceblue;margin-left: 1px;"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
